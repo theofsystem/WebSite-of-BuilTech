@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --font-principal: 'Roboto', sans-serif;;
+    --color-principal: #0575E6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: var(--font-principal);
+}
+
+.header-completo{
+    width: 100%;
+    background-color: #fff;
+}
+
+.contenido-header{
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+}
+
+.contenido-header h1{
+    font-weight: 700;
+    margin: auto;
+    font-size: 2.1em;
+    width: 15%;
+}
+.nav-bar{
+    width: 85%;
+    margin: auto;
+}
+
+.nav-izquierda{
+    display: inline-flex;
+    margin: auto;
+}
+
+.nav-derecha{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    margin-right: 5em;
+}
+
+.ul-li{
+    list-style: none;
+    margin: .8em;
+}
+
+.ul-li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 400;
+    transition: all .1s;
+}
+
+.ul-li .inicio-sesion{
+    background-color: var(--color-principal);
+    border-radius: 10px;
+    color: #fff;
+    padding: .9em;
+    transition: all .5s;
+}
+
+.ul-li a:hover{
+    border-bottom: 2px solid var(--color-principal);
+} 
+
+
+.ul-li .inicio-sesion:hover{
+    border-bottom: none;
+    box-shadow: .5px 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+
+.ul-li a:focus{
+    color: var(--color-principal);
+}
+
+.ul-li .inicio-sesion:focus{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
