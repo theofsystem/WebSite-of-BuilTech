@@ -10,3 +10,12 @@ En este repositorio se desarrollara un sitio web para buil-tech, el objetivo del
 3.- Crear contenido de imagenes para el sitio.
 
 4.- Crear la estructura de la pagina con HTML..
+
+
+
+Colores: 
+
+#E6E3E3 --> Gris bajo
+#fff --> blanco
+#000 --> Negro
+#3164F4 --> Azul
