@@ -2,6 +2,91 @@
 
 :root {
     --font-principal: 'Roboto', sans-serif;;
-    --color-principal: #0575E6;
+    --color-principal: #3164F4;
+    --color-gris: #E6E3E3;
 }
 
+                /*  SECTION .inicio*/
+.inicio{
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: flex;
+    padding: 0 5%;
+}
+
+/* EDICIÓN DEL TEXTO DE LA PÁGINA PRINCIPAL */
+.texto-inicio{
+    width: 60%;
+    margin: auto;
+    margin-left: 0;
+}
+
+.texto-inicio h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.texto-inicio p {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* BOTON DEL INCIO */
+.btn-inicio {
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.btn-inicio a{
+    background-color: var(--color-principal);
+    padding: .9em;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05em;
+    transition: all 0.5s;
+}
+
+/* EDICIÓN IMAGEN DEL LA PÁGINA PRINCIPAL */
+.imagen-inicio{
+    right: 15px;
+    width: 40%;
+    margin: auto;
+}
+
+.imagen-inicio img{
+    width: 100%;
+    max-width: 760px;
+    
+}
+
+            /*  SECTION .cursos*/
+.cursos{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-gris);
+    text-align: center;
+    padding: 2%;
+}
+
+/*  TEXTO Y HR DE CURSOS */ 
+.cursos h1{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.hr-curso{
+    margin: auto;
+    height: 3.5px;
+    background-color: #000;
+    width: 8%;
+    border: none;
+    border-radius: 5px;
+}
+
+/*  CUADROS DE CURSOS */
+.area-cursos{
+    margin-top: 8%;
+}

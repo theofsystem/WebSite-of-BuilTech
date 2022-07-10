@@ -12,6 +12,7 @@ En este repositorio se desarrollara un sitio web para buil-tech, el objetivo del
 4.- Crear la estructura de la pagina con HTML..
 
 
+<<<<<<< HEAD
 
 Colores: 
 
@@ -19,3 +20,8 @@ Colores:
 #fff --> blanco
 #000 --> Negro
 #3164F4 --> Azul
+=======
+Colores:
+
+#E6E3E3 --> Gris bajo #fff --> blanco #000 --> Negro #3164F4 --> Azul
+>>>>>>> be26b5c (Actualizacion index)
