@@ -1,0 +1,17 @@
+/* ANIMACIÓN DE class="btn-animacion" */
+.btn-animacion:hover{
+    border-bottom: none;
+    box-shadow: .5px 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+
+.btn-animacion:focus{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+
+.btn:hover {
+    background: linear-gradient(to top, #174bdb,#3164F4);
+    margin: 0px 17px;
+    transform: scale(1.1,1.2);
+}
