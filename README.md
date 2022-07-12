@@ -7,7 +7,7 @@ Sitio Web de building technology
 
 Colores: 
 
-#E6E3E3 --> Gris bajo
+#EDEDED --> Gris bajo
 #fff --> blanco
 #000 --> Negro
 #3164F4 --> Azul
