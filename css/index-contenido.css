@@ -219,3 +219,134 @@
 }
 
 /*  Fin sec .Curso */
+
+
+        /*  SECTION .servicios*/
+
+.servicios{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.servicios h1{
+    margin-top: 2.5%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hr-servicios{
+    width: 5%;
+    height: 3px;
+    background-color: #000;
+    margin: auto;
+    border: none;
+}
+
+/* Contenedores de los cursos */
+.contenido-servicios{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.img-servicio{
+    width: 40%;
+}
+
+.img-servicio img{
+    width: 100%;
+    height: 350px;
+}
+
+.texto-servicio{
+    width: 50%;
+    text-align: left;
+    padding-left: 6%;
+}
+
+
+.texto-servicio h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.texto-servicio p{
+    width: 70%;
+    margin-top: 40px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.texto-servicio a{
+    margin-top: 3%;
+    background-color: #fff;
+    padding: .7em .9em;
+    border-radius: 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.05em;
+    border: 1px solid #000;
+    transition: all .4s ease 0s;
+    position: absolute;
+}
+
+.contenido-servicios a:hover{
+    color: var(--color-principal);
+    border: 1px solid var(--color-principal);
+    transform: scale(1.1);
+}
+
+
+/* Div de parte izq. */
+
+.texto-servicioLeft{
+    padding-left: 0;
+    width: 60%;
+    text-align: left;
+}
+
+.texto-servicioLeft p{
+    width: 70%;
+    margin-top: 40px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.texto-servicioLeft a{
+    margin-top: 3%;
+    background-color: #fff;
+    padding: .7em .9em;
+    border-radius: 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.05em;
+    border: 1px solid #000;
+    transition: all .4s ease 0s;
+    position: absolute;
+}
+
+.next-servicios{
+    display: block;
+    margin-top: 5%;
+}
+
+.mas-servicios{
+    padding-top: 100px;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .5s;
+}
+
+.hr-mas-Servicios{
+    margin: auto;
+    width: 5%;
+    height: 3px;
+    background: #000;
+    border: none;
+}
+
