@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --font-principal: 'Roboto', sans-serif;;
+    --color-principal: #3164F4;
+    --color-gris: #EDEDED;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+                /*  SECTION .inicio*/
+.inicio{
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: flex;
+    padding: 0 5%;
+}
+
+/* EDICIÓN DEL TEXTO DE LA PÁGINA PRINCIPAL */
+.texto-inicio{
+    width: 60%;
+    margin: auto;
+    margin-left: 0;
+}
+
+.texto-inicio h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.texto-inicio p {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+/* BOTON DEL INCIO */
+.btn-inicio{
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.btn-inicio a{
+    background-color: var(--color-principal);
+    padding: .9em;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05em;
+    transition: all 0.5s;
+}
+
+/* EDICIÓN IMAGEN DEL LA PÁGINA PRINCIPAL */
+.imagen-inicio{
+    right: 15px;
+    width: 40%;
+    margin: auto;
+}
+
+.imagen-inicio img{
+    width: 100%;
+    max-width: 760px;
+    
+}
+
+        /*  SECTION .cursos .flex*/
+.cursos{
+    width: 100%;
+    height: 550px;
+    background: var(--color-gris); 
+    text-align: center;
+    padding-top: 30px;
+}
+.cursos h1{
+    font-size: 40px;
+}
+
+/* ==> Contenedor de todos los cursos*/
+.contenedor-cursos{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+/* ==> Contenedor de Cada Curso*/
+.contenedor{
+    display: flex;
+    align-items: center;
+    margin: 3% 6%;
+    cursor: pointer;
+    height: 300px;
+    border-radius: 14px;
+    background-color: #fff;
+    transition: all .3s ease 0s;
+    box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.486);
+    min-width: 50%;
+    transform: translateX(-80%);
+    transition: all 1.8s ease 0s;
+}
+
+.contenedor:hover .content-img {
+    background-color: var(--color-principal);
+    border-radius: 65% 2%;
+}
+
+.contenedor:hover .content-img img {
+    transform: scale(1.2,1.2);
+}
+
+.contenedor:hover .item-text h4 {
+    color: var(--color-principal);
+}
+
+.item{
+    width: 50%;
+    color: #000;
+    text-align: center;
+}
+
+.item-text{
+    margin-bottom: 35px;
+}
+
+.item-text h4{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    transition: all .8s ease 0s;
+}
+
+.item-text p{
+    font-weight: 300;
+}
+
+.ul-info{
+    margin-top: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.ul-info li{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 10px;
+    display: inline-block;
+}
+
+.li-flex {
+    display: flex;
+    align-items: center;
+}
+
+.li-flex img{
+    width: 20px; 
+    margin-right: 5px;   
+}
+
+/* ==> Boton de Ver mas - no me gusto como quedo*/
+.btn-cursos{
+    background-color: #fff;
+    padding: .7em .9em;
+    border-radius: 5px;
+    color: var(--color-principal);
+    text-decoration: none;
+    font-size: 1.05em;
+    border: 1px solid var(--color-principal);
+    transition: all .4s ease 0s;
+}
+
+.btn-cursos:hover{
+    text-decoration: underline;
+    background-color: var(--color-principal);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* ==> Contenedor de img */
+.content-img{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+}
+
+.content-img img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all .4s ease 0s;
+}
+
+/* ==> Contenedor de botones de 3 puntos */
+.item-curso{
+    text-align: center;
+}
+
+.circulo{
+    font-size: .5px;
+    margin: 10px;
+    background-color: rgb(108, 108, 108);
+    padding: 5px;
+    border-radius: 50%;
+    transition: all ease .8s ease 0s;
+}
+
+.circulo:hover {
+    background-color: var(--color-principal);
+}
+
+/*  Fin sec .Curso */
