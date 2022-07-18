@@ -1,18 +1,12 @@
 # WebSite-of-BuilTech
 Sitio Web de building technology
 
-<<<<<<< HEAD
-
 Colores: 
 #EDEDED --> Gris bajo
 #fff    --> blanco
 #000    --> Negro
 #3164F4 --> Azul
-----------------------
-
-Colores:
-
->>>>>>> be26b5c (Actualizacion index)
+#be26b5c (Actualizacion index)
 
         ===> Seccion de Servicios <===
 
