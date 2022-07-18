@@ -330,11 +330,12 @@
 
 .next-servicios{
     display: block;
-    margin-top: 5%;   
+    margin-top: 5%; 
+    margin-bottom: 4%;  
 }
 
 .mas-servicios{
-    padding: 30px 10px;
+    padding: 30px;
     font-size: 25px;
     color: #000;
     text-decoration: none;
@@ -342,8 +343,8 @@
     transition: all .5s ease 0s;
 }
 
-.mas-servicios:hover {
-    color: var(--color-principal);
+.next-servicios:hover {
+    transform: scale(1.1);
 }
 
 .hr-mas-Servicios{
@@ -368,7 +369,7 @@
     align-items: center;
     padding: 10px 50px;
     background-color: #fff;
-    box-shadow: 4px 4px 10px #a5a5a5;
+    box-shadow: 5px 5px 10px #a5a5a5;
     border-radius: 7px;
 }
 
@@ -438,10 +439,20 @@
 /*----FOOTER section---------*/
 .footer {
     padding: 50px 7% 100px 7%; 
+    background-color: var(--color-gris);
+}
+
+.hr-footer{
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: rgba(63, 63, 63, 0.664);
 }
 
 /*----Contenido del footer*/
 .content-footer{
+    padding-top: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
