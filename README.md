@@ -15,4 +15,4 @@ Colores:
 3.- Mejorar las animaciones del footer si es necesario
 4.- Si se puede darle un mejor acomodo a las imagenes conforme a la plantilla
 
-/* trate de hacerla lo mas responsiva posible */
+/* .trate de hacerla lo mas responsiva posible */
