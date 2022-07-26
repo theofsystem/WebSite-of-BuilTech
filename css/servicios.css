@@ -171,3 +171,20 @@ body{
 .servicio-computo .texto-servicio-izq a{
     background-color: var(--color-gris);
 }
+
+.servicio-computo .ensamble p{
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.servicio-computo .ensamble ul li{
+    list-style: square;
+    list-style-position: inside;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.servicio-computo .ensamble ul{
+    margin-bottom: 5%;
+    text-align: center;
+}
